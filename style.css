@@ -1,0 +1,217 @@
+/* Reset */
+html {
+    background: url(img/designer_1.svg) no-repeat top right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; /* Regular */
+}
+p {
+    color: #505F98;
+}
+h1, h2, h3 {
+    color: #091133;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+button#primary_btn {
+    background-color: #111B47;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+button#secondary_btn {
+    background-color: #fff;
+    color: #091133;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* --------------------------------------header */
+header {
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    position: relative;
+}
+.page-img {
+    position: absolute;
+    top: 0;
+    margin: auto;
+}
+.navigation-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navigation-grid-item ul {
+    display: inline-flex;
+    gap: 60px;
+}
+.navigation-grid-item ul li {
+    list-style: none;
+}
+.navigation-grid-item ul li a {
+    font-size: 14px;
+    color: #505F98;
+}
+.logo {
+    width: 106px;
+    height: 38px;
+}
+.navigation-grid-item button {
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.navigation-grid-item:nth-child(1) {
+    justify-self: start;
+    align-content: center;
+}
+.navigation-grid-item:nth-child(2) {
+    justify-self: center;
+}
+.navigation-grid-item:nth-child(3) {
+    justify-self: end;
+    align-content: center;
+}
+/* -------------------------------------------main */
+main {
+    width: 100%;
+}
+.content1 {
+    margin-top: 243px;
+}
+.content1-text {
+    width: 540px;
+}
+.content1-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.content1-text p {
+    font-size: 18px;
+    padding-bottom: 69px;
+}
+.content1-text button {
+    width: 190px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.content2 {
+    margin-top: 546px;
+    position: relative;
+}
+.content2-text {
+    width: 540px;
+}
+.content2-text p {
+    margin-top: 16px;
+}
+.content2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 540px;
+}
+.content2-list {
+    margin-top: 80px;
+}
+.content2-list i {
+    font-size: 36px;
+}
+.content2-list h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+.content2-list p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+.content2-img img{
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.content3 {
+    margin-top: 283px;
+}
+.content3-item {
+    margin-top: 222px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.content3-text {
+    width: 445px;
+    justify-self: end;
+}
+.content3-text p {
+    margin-top: 16px;
+}
+.content3-item button {
+    margin-top: 44px;
+    width: 150px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.content4 {
+    background: url(img/Rectangle.svg) no-repeat top;
+    height: 938px;
+    text-align: center;
+    padding-top: 238px;
+}
+.head h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.head p {
+    font-size: 16px;
+    margin-top: 16px;
+}
+.price h1{
+    color: #222F65;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+.price p{
+    color: #37447E;
+    font-size: 16px;
+}
+.purchase p {
+    margin-top: 60px;
+    color: #5D6970;
+    font-size: 14px;
+}
+.purchase button {
+    width: 189px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+/* -------------------------------------------footer */
